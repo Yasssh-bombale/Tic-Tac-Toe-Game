@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d3557;
+  color: aliceblue;
+  text-align: center;
+}
+.container {
+  margin-top: 2rem;
+  height: 70vh;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.game {
+  /* border: 1px solid #fff; */
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.box {
+  cursor: pointer;
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 2vmin;
+  font-size: 8vmin;
+  border: none;
+  color: #e63946;
+  background-color: #f1faee;
+}
+#reset-game {
+  margin-top: 1.5rem;
+  font-size: 4vmin;
+  background-color: #000814;
+  outline: none;
+  border: none;
+  padding: 1vmin;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
