@@ -49,3 +49,30 @@ body {
   cursor: pointer;
   border-radius: 0.5rem;
 }
+.msg-container {
+  /* border: 1px solid #fff; */
+  height: 15vmin;
+  /* margin-bottom: 2rem; */
+}
+#msg {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: greenyellow;
+  /* margin-bottom: 1rem; */
+}
+#newBtn {
+  margin-top: 20px;
+  font-size: 3vmin;
+  background-color: #000814;
+  outline: none;
+  border: none;
+  padding: 0.5vmin;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
