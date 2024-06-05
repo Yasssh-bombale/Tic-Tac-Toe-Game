@@ -76,3 +76,9 @@ body {
 .hide {
   display: none;
 }
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+}
